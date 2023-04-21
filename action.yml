@@ -1,5 +1,5 @@
 # action.yml
-name: 'Get secrets from hachicorp KV vault'
+name: 'Get secrets from Hachicorp Vault'
 description: 'Gets secrets'
 branding:
   icon: arrow-down-right
