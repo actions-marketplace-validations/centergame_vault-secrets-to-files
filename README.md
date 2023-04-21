@@ -3,7 +3,7 @@ A composite action that puts Hachicorp vault secrets to files
 
 # Usage
     - name: Get secrets from hachicorp kv vault
-      uses: ergrassa/vault-secrets-to-files@v1.0
+      uses: centergame/vault-secrets-to-files@v1.0
       with:
         url: '${{ secrets.URL }}'
         token: '${{ secrets.TOKEN }}'
