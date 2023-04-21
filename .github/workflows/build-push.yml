@@ -24,6 +24,6 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: ergrassa/vault-secrets-to-files
+        tags: centergamedev/vault-secrets-to-files
     - name: Image digest
       run: echo ${{ steps.docker_build.outputs.digest }}
